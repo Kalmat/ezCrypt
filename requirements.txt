@@ -1,0 +1,9 @@
+base64
+os
+sys
+datetime
+traceback
+getpass
+cryptography
+# qr - not not available in PIP. Donwload from https://bitbucket.org/Kalmat/qr/src/master/ and copy qr.py into same folder
+# clparser - not available in PIP. Donwload from https://bitbucket.org/Kalmat/command-line-parser/src/master/ and copy clparser.py into same folder
