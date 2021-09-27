@@ -17,7 +17,21 @@ Basically, it:
 
 ## Usage
 
-    python3 crypto.py -h
+     python3 crypto.py ARGUMENT [OPTIONS]
+
+     ARGUMENTS:
+          -e    Encrypt data
+          -d    Decrypt data
+          -g    Generate key
+
+     OPTIONS:
+          -i    Input file to Encrypt/Decrypt
+          -iq   Input file in QR format (.png only)
+          -m    Message to Encrypt/Decrypt
+          -o    Output file to write encrypted/decrypted data or key
+          -oq   Output file in QR format (.png)
+          -p    Password to Encrypt/Decrypt data (use quotation marks if required)
+          -k    Key to Encrypt/Decrypt data
 
 #### SUGGESTION:
 If you intend to compress the file, first compress it, then cipher it (will reduce size and time)
